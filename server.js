@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const { swaggerJsdocs: v1SwaggerDocs } = require("./swagger");
 
-const port = 3000;
+const port = 4000;
 
 app.use(cors());
 app.use(express.json());
